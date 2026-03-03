@@ -7,7 +7,6 @@ export default function Courses() {
   const [activeCategory, setActiveCategory] = useState("Semua");
   const [activeSubCategory, setActiveSubCategory] = useState("Semua");
 
-  // Filter Logika
   const filteredCourses = useMemo(() => {
     return data
       .filter((item) => {
@@ -30,7 +29,6 @@ export default function Courses() {
   return (
     <div className="bg-[#F3F4F4] py-10 min-h-screen">
       <div className="mx-auto px-8 py-16">
-        {/* Header Section */}
         <div className="mb-12 text-center">
           <h1 className="font-extrabold text-[#061E29] text-4xl tracking-tight">
             Eksplorasi <span className="text-[#1D546D]">Kursus IT</span>
@@ -38,9 +36,7 @@ export default function Courses() {
           <div className="bg-[#5F9598] mx-auto mt-4 rounded-full w-24 h-1"></div>
         </div>
 
-        {/* Search & Filter Bar */}
         <div className="flex flex-col gap-6 mb-12">
-          {/* Search Input */}
           <div className="relative mx-auto w-full max-w-2xl">
             <input
               type="text"

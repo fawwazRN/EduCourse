@@ -118,7 +118,7 @@ const data = [
     level: "menengah",
     descPanjang:
       "JavaScript adalah bahasa pemrograman yang memberikan nyawa pada setiap website modern karena tanpanya sebuah halaman web hanya akan menjadi dokumen statis yang tidak bisa merespons tindakan pengguna dalam kursus ini kita akan menjelajahi fondasi logika pemrograman mulai dari pemahaman variabel tipe data hingga struktur kontrol yang memungkinkan website kamu mengambil keputusan secara mandiri selain itu kita juga akan mendalami bagaimana JavaScript berinteraksi langsung dengan struktur HTML melalui manipulasi Document Object Model sehingga kamu bisa menciptakan fitur interaktif seperti tombol yang berfungsi galeri foto yang berganti otomatis hingga validasi formulir secara langsung tanpa perlu memuat ulang halaman dengan menguasai materi ini kamu bukan lagi sekadar pembuat halaman web tetapi sudah menjadi seorang pengembang aplikasi web yang mampu membangun pengalaman pengguna yang dinamis dan responsif sesuai dengan standar industri pengembangan perangkat lunak saat ini",
-    pengunjung: 402,
+    pengunjung: 702,
     pembelajaran: [
       "Pengenalan & Sejarah JavaScript",
       "Variabel (var, let, const)",
