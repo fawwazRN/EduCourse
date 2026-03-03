@@ -4,6 +4,8 @@ const data = [
     nama: "HTML Dasar",
     desc: "Pelajari fondasi utama pembuatan website. Kursus ini membahas struktur dasar HTML, penggunaan tag, hingga cara membuat halaman web pertama kamu dari nol.",
     total: 10,
+    category: "Web",
+    subCategory: "HTML",
     time: 5,
     level: "pemula",
     pengunjung: 500,
@@ -25,6 +27,8 @@ const data = [
   {
     id: 2,
     nama: "HTML Lanjutan",
+    category: "Web",
+    subCategory: "HTML",
     desc: "Tingkatkan kemampuan HTML kamu dengan mempelajari teknik mendalam seperti pembuatan formulir yang kompleks, optimasi SEO melalui elemen semantik, serta penerapan praktik terbaik untuk aksesibilitas website modern.",
     total: 12,
     time: 8,
@@ -50,6 +54,8 @@ const data = [
   {
     id: 3,
     nama: "CSS Dasar",
+    category: "Web",
+    subCategory: "CSS",
     desc: "Kuasai teknik tata letak modern menggunakan Flexbox dan Grid serta pelajari cara membuat animasi menarik dan desain yang sepenuhnya responsif untuk berbagai perangkat.",
     total: 10,
     time: 8,
@@ -73,6 +79,8 @@ const data = [
   {
     id: 4,
     nama: "CSS Lanjutan",
+    category: "Web",
+    subCategory: "CSS",
     desc: "Ubah tampilan website kamu menjadi lebih menarik dan profesional dengan mempelajari dasar-dasar styling mulai dari pewarnaan, pengaturan tata letak, hingga pemilihan tipografi yang tepat.",
     total: 16,
     time: 12,
@@ -102,6 +110,8 @@ const data = [
   {
     id: 5,
     nama: "JS Dasar",
+    category: "Web",
+    subCategory: "JS",
     desc: "Bawa website kamu menjadi lebih hidup dan interaktif dengan mempelajari logika pemrograman JavaScript mulai dari dasar variabel hingga manipulasi dokumen web secara dinamis.",
     total: 15,
     time: 20,
@@ -130,6 +140,8 @@ const data = [
   {
     id: 6,
     nama: "JS Lanjutan",
+    category: "Web",
+    subCategory: "JS",
     desc: "Tingkatkan kemahiran pemrograman kamu dengan menguasai konsep asinkron, manipulasi data tingkat lanjut melalui API, serta pemahaman mendalam tentang ekosistem JavaScript modern.",
     total: 13,
     time: 20,
