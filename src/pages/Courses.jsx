@@ -67,7 +67,6 @@ export default function Courses() {
             ))}
           </div>
 
-          {/* Filter Tingkat 2: Sub-Kategori (Hanya muncul jika kategori tertentu dipilih) */}
           {activeCategory === "Web" && (
             <div className="flex flex-wrap justify-center gap-2 slide-in-from-top-2 font-mono animate-in duration-300 fade-in">
               {["Semua", "HTML", "CSS", "JS", "React"].map((sub) => (
