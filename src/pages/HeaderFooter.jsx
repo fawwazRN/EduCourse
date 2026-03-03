@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router";
-import logo from "/logo.png";
 
 export default function HeaderFooter() {
   // Helper untuk styling NavLink dengan palet baru
@@ -13,16 +12,11 @@ export default function HeaderFooter() {
     <div className="flex flex-col bg-[#F3F4F4] min-h-screen font-sans">
       {/* Header */}
       <header className="top-0 z-50 fixed border-[#5F9598]/10 border-b w-full">
-        <div className="flex justify-between items-center bg-white/90 backdrop-blur-md px-6 md:px-20 py-3 w-full">
-          {/* Logo Section */}
-          <div className="flex items-center">
-            <NavLink to="/">
-              <img
-                src={logo}
-                alt="EduCourse Logo"
-                className="w-auto h-10 md:h-12 object-contain"
-              />
-            </NavLink>
+        <div className="flex justify-between items-center bg-white/80 backdrop-blur-md px-6 md:px-20 py-4 w-full">
+          <div className="flex items-center gap-2">
+            <h1 className="font-black text-[#061E29] text-2xl tracking-tighter">
+              Edu<span className="text-[#1D546D]">Course</span>
+            </h1>
           </div>
 
           <nav className="flex items-center space-x-8 font-medium text-sm uppercase tracking-wide">
