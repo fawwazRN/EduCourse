@@ -1,6 +1,7 @@
 import { NavLink, useParams } from "react-router";
 import data from "../data/courses";
 import { useState } from "react";
+import NotFound from "./NotFound";
 
 export default function CourseDetail() {
   const { id } = useParams();
@@ -9,18 +10,7 @@ export default function CourseDetail() {
   const [showMateri, setShowMateri] = useState(false);
 
   if (!course) {
-    return (
-      <div className="bg-[#F3F4F4] py-20 min-h-screen text-center">
-        <h1 className="font-bold text-[#061E29] text-2xl">
-          Kursus tidak ditemukan!
-        </h1>
-        <NavLink
-          to="/courses"
-          className="text-[#1D546D] hover:text-[#5F9598] underline transition-colors">
-          Kembali ke Daftar Kursus
-        </NavLink>
-      </div>
-    );
+    return <NotFound />;
   }
 
   return (
